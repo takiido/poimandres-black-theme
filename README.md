@@ -1,7 +1,7 @@
 <p align="middle">
   <img src="https://github.com/drcmda/poimandres-theme/raw/HEAD/assets/dots.png" width="200" />
   <img src="https://github.com/drcmda/poimandres-theme/raw/HEAD/assets/screencap.jpg" />
-  <img src="https://github.com/takiido/poimandres-black-theme/assets/black.png" width="400">
+  <img src="https://github.com/takiido/poimandres-black-theme/blob/main/assets/black.png?raw=true">
 </p>
 
 Poimandres is a minimal, frameless dark-theme inspired mostly by [blueberry](https://github.com/peymanslh/vscode-blueberry-dark-theme). This theme tries to focus on semantic meaning instead of color variety. You'll find that it colors things like errors, voids, throws and deletes in red, types are slighty darker so that the spotlight is on the code, green new's, etc.
