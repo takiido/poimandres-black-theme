@@ -593,8 +593,6 @@
           "punctuation.definition.tag",
           "punctuation.separator.inheritance.php",
           "punctuation.definition.tag.html",
-          "punctuation.definition.tag.begin.html",
-          "punctuation.definition.tag.end.html",
           "punctuation.section.embedded",
           "keyword.other.template",
           "keyword.other.substitution",
@@ -602,6 +600,12 @@
         ],
         "settings": {
           "foreground": "#e4f0fb"
+        }
+      },
+      {
+        "scope": ["punctuation.definition.tag.begin.html", "punctuation.definition.tag.end.html"],
+        "settings": {
+          "foreground": "#a6accd"
         }
       },
       {
@@ -656,11 +660,16 @@
           "constant.other.key",
           "markup.heading",
           "markup.inserted.git_gutter",
-          "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js",
-          "text.html.derivative"
+          "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
         ],
         "settings": {
           "foreground": "#5DE4c7"
+        }
+      },
+      {
+        "scope": ["text.html.derivative"],
+        "settings": {
+          "foreground": "#e4f0fb"
         }
       },
       {

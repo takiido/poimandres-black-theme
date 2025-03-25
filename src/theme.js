@@ -46,6 +46,14 @@ const storm = {
   },
 }
 
+const black = {
+  ...base,
+  colors: {
+    ...base.colors,
+    bg: '#0d0d0d',
+  },
+}
+
 const stormNoitalics = {
   ...base,
   colors: { ...storm.colors },
@@ -1265,5 +1273,6 @@ module.exports.schema = schema
 module.exports.base = base
 module.exports.noitalics = noitalics
 module.exports.storm = storm
+module.exports.black = black
 module.exports.stormNoitalics = stormNoitalics
 module.exports.svg = svg
